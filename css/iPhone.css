@@ -1,0 +1,20 @@
+@media all and (max-width: 375px) {
+    nav {
+        order: 0;
+    }
+
+    #wrapper {        
+        flex-direction: column;
+    }
+
+    article {
+        order: 1;
+    }
+
+    #right-sidebar {    
+        margin-top: 4px;
+        margin-left: 4px;
+        max-height: 50px;
+        order: 2;
+    }
+}

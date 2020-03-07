@@ -1,0 +1,15 @@
+@media all and (max-width: 320px) {
+    nav {
+        margin: 4px;
+    }
+
+    article {        
+        margin-bottom: 4px;
+    }
+
+    #left-sidebar,
+    #right-sidebar,
+    header,
+    footer {
+        display: none;    }
+}
